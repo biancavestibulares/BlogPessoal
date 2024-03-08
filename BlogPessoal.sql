@@ -2,7 +2,7 @@ SELECT * FROM db_blogpessoal.tb_postagens;
 USE db_blogpessoal;
 
 -- Limpar a tabela
-TRUNCATE TABLE tb_postagens;
+-- TRUNCATE TABLE tb_postagens;
 
 -- Inserindo os valores a nossa tabela de postagens
 INSERT INTO tb_postagens(data, texto, titulo)
