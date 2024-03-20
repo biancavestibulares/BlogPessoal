@@ -39,9 +39,15 @@ public class Postagem {
 	private LocalDateTime data; //Atualiza automaticamente o campo com a data e hora atual sempre que a entidade é atualizada
 	
 	//Cardinalidade do relacionamento - muitos para um
+	//Tema
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Tema tema;
+
+	//Usuario
+	@ManyToOne
+	@JsonIgnoreProperties("postagem")
+	private Usuario usuario;
 
 	//Getters e Setters
 	public Long getId() {
@@ -82,6 +88,14 @@ public class Postagem {
 
 	public void setTema(Tema tema) {
 		this.tema = tema;
+	}
+	
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 	
 }
