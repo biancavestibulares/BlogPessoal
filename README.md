@@ -1,1 +1,4 @@
-Exercício: https://docs.google.com/document/d/1osLYITfFww1MUsZFYQHvx_EhmBImNlXg/edit
+
+Exercício: https://docs.google.com/document/d/1aFxiYk45rYJUQHm7JtSneZp8yv3Wv9kd/edit
+BlogPessoalEx1
+BlogPessoalEx1
