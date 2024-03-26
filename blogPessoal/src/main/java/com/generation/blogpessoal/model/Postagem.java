@@ -12,24 +12,28 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+//Entidade JPA
 @Entity
-@Table(name = "tb_postagens")
+@Table(name = "tb_postagens") //Define o nome da tabela no banco de dados
 public class Postagem {
 	
+	//ID - chave primária
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotBlank(message = "O atributo título é obrigatório!")
-	@Size(min = 5, max = 100, message = "O atributo título deve conter de 05-100 caracteres")
+	//Título
+	@NotBlank(message = "O atributo título é obrigatório!") //Não pode estar vazio
+	@Size(min = 5, max = 100, message = "O atributo título deve conter de 05-100 caracteres") //Tamanho
 	private String titulo;
 	
-	@NotBlank(message = "O atributo texto é obrigatório!")
-	@Size(min = 5, max = 1000, message = "O atributo texto deve conter de 05-1000 caracteres")
+	@NotBlank(message = "O atributo texto é obrigatório!") //Não pode estar vazio
+	@Size(min = 5, max = 1000, message = "O atributo texto deve conter de 05-1000 caracteres") //Tamanho
 	private String texto;
 	
+	//Data
 	@UpdateTimestamp
-	private LocalDateTime data;
+	private LocalDateTime data; //Atualiza automaticamente o campo com a data e hora atual sempre que a entidade é atualizada
 
 	//Getters e Setters
 	public Long getId() {
@@ -64,6 +68,4 @@ public class Postagem {
 		this.data = data;
 	}
 	
-	
-
 }
