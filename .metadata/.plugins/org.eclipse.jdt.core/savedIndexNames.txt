@@ -7,12 +7,15 @@ INDEX VERSION 1.134+C:\Users\bianc\OneDrive\햞ea de Trabalho\Spring1\.metadata\.
 102182198.index
 1675793434.index
 1483606485.index
+3929518790.index
 902613448.index
 568981068.index
 1433126588.index
+4197346503.index
 3874370274.index
 3215554231.index
 2379175167.index
+673543628.index
 1412739303.index
 981502762.index
 2310147413.index
@@ -21,6 +24,7 @@ INDEX VERSION 1.134+C:\Users\bianc\OneDrive\햞ea de Trabalho\Spring1\.metadata\.
 3053743287.index
 1865797976.index
 3305574418.index
+2652444019.index
 3912554781.index
 1145541864.index
 3584673564.index
@@ -31,6 +35,7 @@ INDEX VERSION 1.134+C:\Users\bianc\OneDrive\햞ea de Trabalho\Spring1\.metadata\.
 1074234766.index
 1995898058.index
 357585042.index
+2891736592.index
 2853025265.index
 1842713803.index
 774918643.index
@@ -41,8 +46,10 @@ INDEX VERSION 1.134+C:\Users\bianc\OneDrive\햞ea de Trabalho\Spring1\.metadata\.
 3052905775.index
 2812740255.index
 410400740.index
+1610650590.index
 2404720885.index
 1460552672.index
+2844770109.index
 3231862639.index
 3053878707.index
 2502178121.index
@@ -89,8 +96,9 @@ INDEX VERSION 1.134+C:\Users\bianc\OneDrive\햞ea de Trabalho\Spring1\.metadata\.
 2149908481.index
 2423768256.index
 1956912207.index
-3060319413.index
+1678148380.index
 3413725848.index
+3060319413.index
 2397996154.index
 37222740.index
 160567231.index
